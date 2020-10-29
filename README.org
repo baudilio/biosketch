@@ -1,0 +1,12 @@
+#+TITLE: Biographical Sketch
+#+AUTHOR: Baudilio Tejerina
+#+EMAIL: baudilio.Tejerina@noaa.gov
+
+* Compile document
+  ~$> latexmk -f -xelatex -shell-escape -interaction=nonstopmode -file-line-error biosketch~
+
+* Visualize PDF document
+  ~$> open biosketch.pdd~
+
+* Clean
+    ~$> latexmk -C~
